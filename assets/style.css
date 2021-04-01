@@ -1,0 +1,146 @@
+:root {
+    --main-color: #2a4858;
+    --color-txt: whitesmoke;
+    --main-font:'Noto Sans', sans-serif;
+}
+
+.jumbo-color {
+    background-color: var(--main-color);
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 2rem;
+}
+
+.desc-txt {
+    margin-left: 44em;
+    margin-right: 0px;
+    color: orange;
+    font-family: var(--main-font);
+}
+
+.title-edit {
+    margin-left: 1.5em
+}
+
+header nav {
+    font-size: 18px;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav li {
+    display: inline-block;
+    margin-left: 70px;
+    color: brown;
+}
+
+ul li a {
+    color: black;
+    font-family: var(--main-font);
+}
+
+ul li a:hover {
+    color: antiquewhite;
+}
+
+/* background image of nyc skyline */
+
+.bgimage {
+    background-image: url("../images/nyskylinenight.jpg");
+    height: 500px;
+    background-attachment: fixed;
+}
+
+.aboutme-title {
+    text-align: center;
+    padding-top: 1.5em;
+    font-family: var(--main-font);
+    color: var(--color-txt);
+    text-decoration: underline;
+}
+
+.container-fluid {
+    background-color: var(--main-color);
+}
+
+.profilepic {
+    margin-left: 12em;
+    border: 2px solid black;
+    border-radius: 30px;
+    margin-top: 22px;
+}
+
+.about-me-paragraph {
+    font-family: var(--main-font);
+    float: right;
+    border: 2px solid whitesmoke;
+    margin-top: 3em;
+    margin-right: 50px;
+    width: 50%;
+}
+
+.p-txt {
+    color: var(--color-txt);
+    margin: 20px 10px 4rem 10px;
+}
+
+.movie-img {
+    width: 20%; 
+}
+
+.desc-edits {
+    text-align: center;
+    padding-top: 30px;
+    font-family: var(--main-font);
+    color: var(--color-txt);
+    text-decoration: underline;
+    margin-bottom: 40px;
+}
+
+div h4 {
+    margin-left: 30px;
+    color: var(--color-txt)
+}
+
+.work-title {
+    text-align: center;
+    padding-top: 3.5em;
+    font-family: var(--main-font);
+    color: var(--color-txt);
+    text-decoration: underline;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 78%;
+}
+
+.card-body {
+    background-color: var(--main-color);
+}
+
+.card-title {
+    font-family: var(--main-font);
+}
+
+.card-text {
+    color: var(--color-txt);
+    font-family: var(--main-font);
+}
+
+.git-card,
+.li-card,
+.ig-card {
+    margin: 4em auto 0 auto;
+}
+
+body > footer > div > section > div > div.col-lg-2.col-md-12.mb-4.mb-md-0.git-card > div > a > img {
+    height: 9em;
+    border-radius: 30px;
+}
