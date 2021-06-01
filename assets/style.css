@@ -63,6 +63,7 @@ ul li a:hover {
 
 .container-fluid {
     background-color: var(--main-color);
+    padding-top: 1px;
 }
 
 .profilepic {
